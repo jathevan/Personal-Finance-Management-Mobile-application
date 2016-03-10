@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextName"
+        android:hint="Name"
+        android:layout_x="-2dp"
+        android:layout_y="58dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editTextPhone"
+        android:hint="phone number"
+        android:layout_x="-2dp"
+        android:layout_y="103dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="User name(email)"
+        android:layout_x="-8dp"
+        android:layout_y="137dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextPassword"
+        android:hint="Password"
+        android:layout_x="2dp"
+        android:layout_y="176dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextConfirmPassword"
+        android:hint="confirm password"
+        android:layout_x="0dp"
+        android:layout_y="214dp"
+        android:clickable="false"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCurrency"
+        android:hint="currency"
+        android:layout_x="2dp"
+        android:layout_y="251dp" />
+
+    <ExpandableListView
+        android:layout_width="309dp"
+        android:layout_height="68dp"
+        android:id="@+id/expandableListView"
+        android:layout_x="8dp"
+        android:layout_y="300dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/updatebtn"
+        android:layout_x="141dp"
+        android:layout_y="397dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancelbtn"
+        android:layout_x="267dp"
+        android:layout_y="387dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:id="@+id/checkBoxChange"
+        android:layout_x="231dp"
+        android:layout_y="214dp"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/buttonAdd"
+        android:layout_x="14dp"
+        android:layout_y="393dp" />
+
+</AbsoluteLayout>
